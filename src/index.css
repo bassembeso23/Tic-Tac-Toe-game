@@ -285,7 +285,7 @@ ol {
   margin-top: 1.5rem;
 }
 
-@media(max-width: 661px) {
+@media screen and (max-width: 661px) {
   #players {
     flex-direction: column;
   }
@@ -304,7 +304,7 @@ ol {
     padding: 1rem;
   }
 }
-@media(max-width: 450px) {
+@media screen and (max-width: 450px) {
   #game-board button {
     width: 77px;
     height: 77px;
